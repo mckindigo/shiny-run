@@ -1,0 +1,18 @@
+{
+  "name": "shiny-run",
+  "version": "1.0.0",
+  "description": "Shiny Run: a Marbles-style Kick chat racing game for OBS (made by Croww)",
+  "scripts": {
+    "build": "node tools/build.js",
+    "verify": "node tools/build.js && node tools/verify.js",
+    "tune": "node tools/tune.js 150 2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "matter-js": "^0.20.0",
+    "puppeteer-core": "^23.11.1"
+  },
+  "private": true
+}
